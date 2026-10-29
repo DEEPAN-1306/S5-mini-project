@@ -1,0 +1,27 @@
+{
+  "name": "capstone-connect-monorepo",
+  "version": "1.0.0",
+  "description": "Dynamic Multi-Disciplinary Capstone Project Collaboration and Mentorship Matching Ecosystem for Universities",
+  "scripts": {
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server run test",
+    "seed:server": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "capstone",
+    "collaboration",
+    "mentorship",
+    "university",
+    "full-stack",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Capstone Connect Team",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "mongodb": "^7.7.0"
+  }
+}
